@@ -27,7 +27,7 @@ const perguntas = [
                
             },
             {
-                afirmacao: "Uma playlist de músicas relaxantes, perfeita para momentos de descanso.",
+                texto: "Uma playlist de músicas relaxantes, perfeita para momentos de descanso.",
                 afirmacao: "não."
             },
         ]
