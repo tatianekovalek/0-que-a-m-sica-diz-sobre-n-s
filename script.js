@@ -15,25 +15,25 @@ const perguntas = [
             {
                 texto: "Na verdade, não acho que a música seja tão importante assim.Para mim, é apenas um complemento, e posso viver bem sem ela.",
                 
-            }
+            },
         ]
     },
     {
-        enunciado: "A música tem o poder de nos transportar para diferentes momentos e emoções e as playlists são uma forma incrível de capturar essas experiências.Pensando nisso, qual a sua playlist favorita?"
+        enunciado: "A música tem o poder de nos transportar para diferentes momentos e emoções e as playlists são uma forma incrível de capturar essas experiências.Pensando nisso, qual a sua playlist favorita?",
         alternativas: [
             {
                 texto: "Uma playlist de músicas para malhar, que me motiva a ficar ativa.",
-                afirmacao: "sim"
+                afirmacao: "sim."
                
             },
             {
                 afirmacao: "Uma playlist de músicas relaxantes, perfeita para momentos de descanso.",
-                afirmacao: "não"
-                
-            }
+                afirmacao: "não."
+            },
         ]
     },
     {
+
         enunciado: "Nos últimos anos, as redes sociais se tornaram uma parte fundamental das nossas vidas, e isso inclui a maneira como consumimos e interagimos com a música. Com plataformas como instagra, tiktok e twiter, os artistas tem uma nova forma de se conectar diretamente com seus fãs, compartilhando não só músicas, mas também histórias pessoais e processos criativos.Além disso,as redes sociais permitem que os ouvintes descubram novas músicas e artistas de maneira mais rápida e acessível.Diante desse cenário, você acredita que as redes sociais mudaram significadamente a forma como consumimos e interagimos com a música? ",
         alternativas: [
             {
@@ -43,8 +43,8 @@ const perguntas = [
             {
                 afirmacao: "Não, eu acho que as redes sociais não mudaram tanto assim.Embora elas ajudem na divulgação, muitas vezes a qualidade da música se perde em meio a tanta informação, e isso pode ser confuso para os ouvintes.",
                 
-            }
-        ]
+            },
+         ]
     },
     {
         enunciado: "A música sempre teve um papel significativo na sociedade, mas com o avanço da tecnologia e o acesso facilitado a diferentes estilos e gêneros, sua influência no comportamento, das pessoas se tornou ainda mais evidente.Por exemplo, canções mais alegres, podem animar as pesssoas e incentivar comportamentos mais sociais.Diante disso, você acha que a música realmente tem o poder de influenciar o comportamento das pessoas?",
