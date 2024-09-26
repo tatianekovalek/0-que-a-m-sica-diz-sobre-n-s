@@ -23,10 +23,12 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Uma playlist de músicas para malhar, que me motiva a ficar ativa.",
+                afirmacao: "sim"
                
             },
             {
-                texto: "Uma playlist de músicas relaxantes, perfeita para momentos de descanso.",
+                afirmacao: "Uma playlist de músicas relaxantes, perfeita para momentos de descanso.",
+                afirmacao: "não"
                 
             }
         ]
@@ -35,11 +37,11 @@ const perguntas = [
         enunciado: "Nos últimos anos, as redes sociais se tornaram uma parte fundamental das nossas vidas, e isso inclui a maneira como consumimos e interagimos com a música. Com plataformas como instagra, tiktok e twiter, os artistas tem uma nova forma de se conectar diretamente com seus fãs, compartilhando não só músicas, mas também histórias pessoais e processos criativos.Além disso,as redes sociais permitem que os ouvintes descubram novas músicas e artistas de maneira mais rápida e acessível.Diante desse cenário, você acredita que as redes sociais mudaram significadamente a forma como consumimos e interagimos com a música? ",
         alternativas: [
             {
-                texto: "Sim, as redes sociais mudaram muito a forma como consumimos música. Elas facilitam a descoberta de novos artistas e permitem que os fãs interajam diretamente com seus ídolos.",
+                afirmacao: "Sim, as redes sociais mudaram muito a forma como consumimos música. Elas facilitam a descoberta de novos artistas e permitem que os fãs interajam diretamente com seus ídolos.",
                 
             },
             {
-                texto: "Não, eu acho que as redes sociais não mudaram tanto assim.Embora elas ajudem na divulgação, muitas vezes a qualidade da música se perde em meio a tanta informação, e isso pode ser confuso para os ouvintes.",
+                afirmacao: "Não, eu acho que as redes sociais não mudaram tanto assim.Embora elas ajudem na divulgação, muitas vezes a qualidade da música se perde em meio a tanta informação, e isso pode ser confuso para os ouvintes.",
                 
             }
         ]
@@ -57,6 +59,7 @@ const perguntas = [
             }
         ]
     },
+];
 
 let atual = 0;
 let perguntaAtual;
