@@ -24,7 +24,6 @@ const perguntas = [
             {
                 texto: "Uma playlist de músicas para malhar, que me motiva a ficar ativa.",
                 afirmacao: "sim."
-               
             },
             {
                 texto: "Uma playlist de músicas relaxantes, perfeita para momentos de descanso.",
