@@ -60,11 +60,12 @@ https://github.com/user/repo.github
 
     <script>
          functionresponder(resposta); {
-            if(resposta==='sim') {
-                alert('Que bom!Fico feliz em saber disso!');
-            }else{
-                alert('Sinto muito!A sua opinião é importante.');
-            }
-        }
+           respostaDiv.innerHTML='Que bom!Fico feliz em saber disso!';
+           respostaDiv.style.color='red';//Muda a cor do texto para verde;
+         }
 
+         functionresponder(resposta);{
+            respostaDiv.innerHTML='Sinto muito!A sua opinião é importante!';
+            respostaDiv.style.color='red';//Muda a cor do texto para vermelho;
+         }
     </script>
