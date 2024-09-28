@@ -25,6 +25,11 @@ https://github.com/user/repo.github
         margin: 4px 2px;
         cursor: pointer;
     }
+    #resposta{
+        margin-top: 20px;
+        font-size: 18px;
+    }
+
     </style>
   </head>
 <body>
@@ -44,19 +49,26 @@ https://github.com/user/repo.github
         class="botao">Não</button>
     </div>
 
+    <!--Div para mostrar a resposta-->
+    <div id="resposta" class="hidden"></div>
+
     <script>
         function mostrarFeedback(){
             document.getElementByld('feedback').classList.remove('hidden');
         }
 
         functionresponder(resposta);{
-        if(resposta==='sim'){
-            alert('Que bom que você gostou!');
-        }else{
-            alert('Agradecemos pelo seu feedback!');
+            const respostaDiv=document.getElementByld('resposta');
+
+            respostaDiv.classList.remove('hidden');
+            if(resposta==='sim'){
+                respostaDiv.innerHTML='Que bom que você gostou!';
+            }else{
+                respostaDiv.innerHTML='Agradecemos o seu feedback!';
         }
         }
     </script>
+    
     </body>
     </html>
 
