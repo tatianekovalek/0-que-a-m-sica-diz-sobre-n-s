@@ -1,71 +1,56 @@
+html
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="O que a música diz sobre nós" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>O que a música diz sobre nós</title>
-
-    <div class="caixa-principal">
-        <h1>O que a música diz sobre nós</h1>
-        <div class="caixa-perguntas"></div>
-        <div class="caixa-alternativas"></div>
-        <div class="caixa-resultado">
-            <p class="texto-resultado"></p>
-        </div>
-    </div>
-    <script src="script.js"></script>
-</body>
-</html>
-
-https://github.com/user/repo.github
-
-<style>
-        body{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            height: 100vh;
+    <style>
+        body {
             font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
+            text-align: center;
+            margin-top: 50px;
         }
-        h1{
-            margin-bottom: 20px;
-        }
-        .button{
-            padding: 10px 20px;
-            margin: 5px;
+        .botao {
+            background-color: #4CAF50; /* Verde */
             border: none;
-            border-radius: 5px;
-            cursor: pointer;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
             font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
         }
-        .sim{
-            background-color: #4CAF50;/*
-            Verde*/
-            color: white;
+        #resposta {
+            margin-top: 20px;
+            font-size: 18px;
         }
-        .nao{
-            background-color: #f44336;/*
-            Vermelho*/
-            color: white;
-        }
-        </style>
+    </style>
+</head>
+<body>
 
     <h1>Você gostou de responder as perguntas?</h1>
-    <button class="button sim"
-    onclick="responder('sim')">Sim</button>
-    <button class="button nao"
-    onclick="responder('não')">Não</button>
+    <button onclick="responder('sim')" class="botao">Sim</button>
+    <button onclick="responder('nao')" class="botao">Não</button>
+
+    <!-- Div para mostrar a resposta -->
+    <div id="resposta"></div>
 
     <script>
-         functionresponder(resposta); {
-           respostaDiv.innerHTML='Que bom!Fico feliz em saber disso!';
-           respostaDiv.style.color='red';//Muda a cor do texto para verde;
-         }
+        function responder(resposta) {
+            const respostaDiv = document.getElementById('resposta');
 
-         functionresponder(resposta);{
-            respostaDiv.innerHTML='Sinto muito!A sua opinião é importante!';
-            respostaDiv.style.color='red';//Muda a cor do texto para vermelho;
-         }
-    </script>
+            if (resposta === 'sim') {
+                respostaDiv.innerHTML = 'Que bom! Fico feliz em saber disso!';
+                respostaDiv.style.color = 'green'; // Muda a cor do texto para verde
+            } else {
+                respostaDiv.innerHTML = 'Sinto muito! A sua opinião é importante!';
+                respostaDiv.style.color = 'red'; // Muda a cor do texto para vermelho
+            }
+        }
+    </script>
+
+</body>
+</html>
