@@ -5,9 +5,62 @@
     <meta name="O que a música diz sobre nós" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>O que a música diz sobre nós</title>
-    
-</head>
+
+https://github.com/user/repo.github
+
+<style>
+    .hidden{
+        display: none;
+    }
+    .botao{
+        background-color: #4CAF50;/*
+        Verde*/
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+    </style>
+  </head>
 <body>
+
+    <h1>O que a música diz sobre nós</h1>
+    <p>A música é uma poderosa forma de expressão que tem o potencial de unir pessoas, inspírar mudanças e enriquecer novas vidas com emoções profundas.Ela pode servir como um refúgio, uma fonte de motivação e uma maneira de conectar comunidades, transcendendo barreiras culturais e linguísticas. Através da música, podemos explorar diferentes perspectivas e experiências, tornando-a uma ferramenta valiosa para empatia e a compreensão. Por outro lado, a música também pode ter efeitos negativos.Em alguns casos, letras ou mensagens podem promover comportamentos prejudiciais ou perpetuar estereótipos.Além disso,a saturação de conteúdo nas plataformas digitais pode dificultar a apreciação genuína da música, levando a desiformação e a superficialidade nas interações.Assim, emboraa música tenha muitos aspectos positivos é importante reconhecer que seu impacto nem sempre é benéfico e deve ser abordado com discernimento. "; </p>
+    
+    <!--Botão para mostrar a pergunta de feedback-->
+    <button 
+    onclick="mostrarFeedback()"
+    class="botao">Finalizar perguntas</button>
+    <div id="feedback" class="hidden">
+        <h2>Você gostou de responder as perguntas?</h2>
+        <button onclick="responder('sim')"
+        class="botao">Sim</button>
+        <button onclick="responder('não')"
+        class="botao">Não</button>
+    </div>
+
+    <script>
+        function mostrarFeedback(){
+            document.getElementByld('feedback').classList.remove('hidden');
+        }
+
+        functionresponder(resposta);{
+        if(resposta==='sim'){
+            alert('Que bom que você gostou!');
+        }else{
+            alert('Agradecemos pelo seu feedback!');
+        }
+        }
+    </script>
+    </body>
+    </html>
+
+
     <div class="caixa-principal">
         <h1>O que a música diz sobre nós</h1>
         <div class="caixa-perguntas"></div>
@@ -19,54 +72,3 @@
     <script src="script.js"></script>
 </body>
 </html>
-
-https://github.com/user/repo.github
-
-<style>
-    body{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        height: 100vh;
-        font-family: Arial, sans-serif;
-        background-color: #f0f0f0;
-    }
-    h1{
-        margin-bottom: 20px;
-    }
-    .button{
-        padding: 10px 20px;
-        margin: 5px;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        font-size: 16px;
-    }
-    .sim{
-        background-color: #4CAF50;/*
-        Verde*/
-        color: white;
-    }
-    .nao{
-        background-color: #f44336;/*
-        Vermelho*/
-        color: white;
-    }
-    </style>
-
-<h1>Você gostou de responder as perguntas?</h1>
-<button class="button sim"
-onclick="responder('sim')">Sim</button>
-<button class="button nao"
-onclick="responder('não')">Não</button>
-
-<script>
-    functionresponder(resposta); {
-        if(resposta==='sim') {
-            alert('Que bom!Fico feliz em saber disso!');
-        }else{
-            alert('Sinto muito!A sua opinião é importante.');
-        }
-    }
-
-</script>
