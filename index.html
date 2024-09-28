@@ -5,6 +5,7 @@
     <meta name="O que a música diz sobre nós" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>O que a música diz sobre nós</title>
+    
 </head>
 <body>
     <div class="caixa-principal">
@@ -18,3 +19,53 @@
     <script src="script.js"></script>
 </body>
 </html>
+
+https://github.com/user/repo.github
+<style>
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+    }
+    h1{
+        margin-bottom: 20px;
+    }
+    .button{
+        padding: 10px 20px;
+        margin: 5px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    .sim{
+        background-color: #4CAF50;/*
+        Verde*/
+        color: white;
+    }
+    .nao{
+        background-color: #f44336;/*
+        Vermelho*/
+        color: white;
+    }
+    </style>
+
+<h1>Você gostou de responder as perguntas?</h1>
+<button class="button sim"
+onclick="responder('sim')">Sim</button>
+<button class="button nao"
+onclick="responder('não')">Não</button>
+
+<script>
+    functionresponder(resposta); {
+        if(resposta==='sim') {
+            alert('Que bom!Fico feliz em saber disso!');
+        }else{
+            alert('Sinto muito!A sua opinião é importante.');
+        }
+    }
+
+</script>
