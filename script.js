@@ -54,7 +54,7 @@ const perguntas = [
             },
             {
                 texto: "Não, acho que causa um impacto tão grande no comportamento.As decisões e ações das pessoas são mais influenciadas por fatores sociais e pessoais, e não a música.",
-                afirmacao:"Obrigado por responder as perguntas."
+                afirmacao:""
             },
         ]
     },
