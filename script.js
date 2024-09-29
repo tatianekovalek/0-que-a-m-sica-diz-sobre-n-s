@@ -98,23 +98,3 @@ function mostraResultado() {
 }
 
 mostraPergunta();
-
-//Criar o botão "Próximo"
-const proximoButton=document.createElement("button");
-proximoButton.textContent="Próximo";
-
-proximoButton.addEventListener("click"),()=>{
-//Remover o botão "Próximo"
-
-caixaAlternativas.removeChild(proximoButton);
-//Mostrar a nova pergunta
-perguntaAtual={
-
-    enunciado:"Você gostou de responder as perguntas?",
-    alternativas:[
-        {texto:"Sim", afirmação:"Que bom!Fico feliz em saber disso!"},
-        {texto:"Não", afirmação:"Sinto muito!A sua opinião é importante"}
-    ]
-}
-mostraPergunta();
-}
