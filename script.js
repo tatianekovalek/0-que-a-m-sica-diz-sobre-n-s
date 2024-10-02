@@ -90,3 +90,11 @@ function respostaSelecionada(opcaoSelecionada) {
     atual++;
     mostraPergunta();
 }
+
+function mostraResultado() {
+    caixaPerguntas.textContent = "A música é uma poderosa forma de expressão que temo potencial de unir pessoas, inspirarmudanças e enriquecer nossas vidas com emoções profundas.Ela pode servir como um refúgio, uma fonte de motivação e uma maneira de conectar comunidades,transcedendo barreiras culturais e linguísticas.Através da música,podemos";
+    textoResultado.textContent = historiaFinal;
+    caixaAlternativas.textContent = "";
+}
+
+mostraPergunta();
