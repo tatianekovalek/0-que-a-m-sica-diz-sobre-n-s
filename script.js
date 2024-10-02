@@ -10,11 +10,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Acredito que sim! A música nos inspira e pode até aumentar a criatividade.",
-               
+                afirmacao: "Sim."
             },
             {
                 texto: "Na verdade, não acho que a música seja tão importante assim.Para mim, é apenas um complemento, e posso viver bem sem ela.",
-                
+                afirmacao: "Não."
             },
         ]
     },
@@ -23,11 +23,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Uma playlist de músicas para malhar, que me motiva a ficar ativa.",
-                afirmacao: ""
+                afirmacao: "Sim."
             },
             {
                 texto: "Uma playlist de músicas relaxantes, perfeita para momentos de descanso.",
-                afirmacao: ""
+                afirmacao: "Não."
             },
         ]
     },
@@ -37,11 +37,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Sim, as redes sociais mudaram muito a forma como consumimos música. Elas facilitam a descoberta de novos artistas e permitem que os fãs interajam diretamente com seus ídolos.",
-                afirmacao: ""
+                afirmacao: "Sim."
             },
             {
                 texto: "Não, eu acho que as redes sociais não mudaram tanto assim.Embora elas ajudem na divulgação, muitas vezes a qualidade da música se perde em meio a tanta informação, e isso pode ser confuso para os ouvintes.",
-                afirmacao: ""
+                afirmacao: "Não."
             },
          ]
     },
@@ -50,11 +50,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Sim, eu acredito que a música pode influenciar muito o comportamento das pessoas.Ela tem o poder de provocar emoções.",
-                afirmacao: ""
+                afirmacao: "Sim."
             },
             {
                 texto: "Não, acho que causa um impacto tão grande no comportamento.As decisões e ações das pessoas são mais influenciadas por fatores sociais e pessoais, e não a música.",
-                afirmacao:""
+                afirmacao:"Não."
             },
         ]
     },
