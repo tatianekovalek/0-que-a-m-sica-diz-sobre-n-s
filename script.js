@@ -92,7 +92,7 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "A música é uma poderosa forma de expressão que temo potencial de unir pessoas, inspirarmudanças e enriquecer nossas vidas com emoções profundas.Ela pode servir como um refúgio, uma fonte de motivação e uma maneira de conectar comunidades,transcedendo barreiras culturais e linguísticas.Através da música,podemos";
+    caixaPerguntas.textContent = "A música é uma poderosa forma de expressão que temo potencial de unir pessoas, inspirarmudanças e enriquecer nossas vidas com emoções profundas.Ela pode servir como um refúgio, uma fonte de motivação e uma maneira de conectar comunidades,transcedendo barreiras culturais e linguísticas.Através da música,podemos explorar diferentes perspectivas e experiências,tornando-a uma ferramenta valiosa para empatia e compreensão.Por outro lado, a música também pode ter efeitos negativos.Em alguns casos, letras ou mensagens podem promover comportamentos prejudiciais ou perpetuar estereótipos.Além disso,a saturação de conteúdo nas plataformas digitais pode dificultar a apreciação genuína da música, levando à desiformação e à superficialidade nas interações.Assim,embora a música tenha muitos aspectos positivos,é importante reconhecer que seu impacto nem sempre é benéfico e deve ser abordado com discernimento.";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
